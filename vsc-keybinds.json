@@ -1,3 +1,4 @@
+// Place your key bindings in this file to override the defaults
 [
     {
         "key": "ctrl+w",
@@ -62,5 +63,10 @@
         "key": "alt+insert",
         "command": "explorer.newFile",
         "when": "explorerViewletVisible && filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "editor.action.revealDefinition",
+        "when": "editorTextFocus"
     }
 ]
